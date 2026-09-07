@@ -90,7 +90,7 @@ function Login(){
     })
 
     return(
-        <div className="container">
+        <div className="auth-container">
         <h1>Login</h1>
         <form onSubmit={handleLogin}>
             <div>
@@ -111,13 +111,13 @@ function Login(){
                 name="password"
                 />
             </div>
-            <button>Login</button>
+            <button className="auth-button">Login</button>
             <span>Don't have an account? <Link to="/SignUp">SignUp</Link></span>
             
         </form>
 
         <div className="App">
-        <button onClick={()=>{googleLogin()}}>login with google</button>
+        <button className="auth-button" onClick={()=>{googleLogin()}}>login with google</button>
         </div>
 
         <ToastContainer/>

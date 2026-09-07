@@ -8,48 +8,50 @@
 
   /* SignUp Editiction */
 
-  label{
+  .auth-container label{
     font-size: 20px;
   }
 
-  html,
+  /* html,
   body{
     height: 100%;
     width: 100%;
-  }
-
+  } */
+/* 
   body{
     display: flex;
     justify-content: center;
     align-items: center;
-  }
+  } */
 
-.container{
+.auth-container{
   background-color: white;
   padding: 32px 48px;
   border-radius: 10px;
   width: 100%;
   max-width: 400px;
  box-shadow: 0px 10px 30px rgba(66, 68, 90, 1);
+ margin-left: 35%;
+ margin-top:10%;
 }
 
-.container h1{
+.auth-container h1{
   margin-bottom: 15px;
 }
 
-.container form{
+.auth-container form{
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
 
-.container div{
+.auth-container div{
   display: flex;
   flex-direction: column;
 
 }
 
-.container input {
+.auth-container input {
   width: 100%;
   font-size: 20px;
   padding: 10px;
@@ -61,12 +63,12 @@
 
 }
 
-.container input::placeholder{
+.auth-container input::placeholder{
   font-size: 12px;
   font-style: italic;
 }
 
-button{
+.auth-button{
   background-color: purple;
   border: none;
   font-size: 20px;

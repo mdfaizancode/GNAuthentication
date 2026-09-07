@@ -61,7 +61,7 @@ function SignUp(){
   }
 
     return(
-        <div className="container">
+        <div className="auth-container">
         <h1>SignUp</h1>
         <form onSubmit={handleSignup}>
             <div>
@@ -92,7 +92,7 @@ function SignUp(){
                 name="password"
                 />
             </div>
-            <button> SignUp</button>
+            <button className="auth-button"> SignUp</button>
             <span>Already have an account? <Link to="/login">Login</Link></span>
         </form>
         <ToastContainer/>
